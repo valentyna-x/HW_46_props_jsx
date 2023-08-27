@@ -1,6 +1,4 @@
-import './Books';
-
-const Book = (props) => {
+export const Book = (props) => {
     return (
         <div className='block__item'>
             <h3>{props.name}</h3>
@@ -8,6 +6,5 @@ const Book = (props) => {
             <p>{props.price}</p>
         </div>
     );
-}
+};
 
-export default Book;

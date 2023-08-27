@@ -1,7 +1,6 @@
+
 import { Book } from "./Books.js";
 import { BooksTitle } from "./BooksTitle.js";
-
-
 
 const App = () => {
     return (
@@ -15,3 +14,5 @@ const App = () => {
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));
+
+export default App;
